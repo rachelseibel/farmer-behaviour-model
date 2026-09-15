@@ -2,10 +2,31 @@
 # Define the parameters for the model
 #------------------------------------------------------------------------------------------
 import numpy as np
+import os
+
+# ---------------------------------------------------------------------------
+# Paths are read from the environment so the model runs from a clone without
+# editing this file. Defaults point at the repository's own sampledata/ folder,
+# which tools/make_sample_landscape.py fills with synthetic data.
+#
+#   LIVESTOCK_INPUT_DIR   grid cells, holdings, distances, transmission probs
+#   LIVESTOCK_LANDSCAPE_DIR  behavioural landscape realisations
+#   LIVESTOCK_STATUS_DIR  where run-status files are written
+#   LIVESTOCK_COUNTY_NAMES  county name lookup csv
+#
+# No restricted data lives in this repository; see DATA.md.
+# ---------------------------------------------------------------------------
+_REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+INPUT_DIR = os.environ.get("LIVESTOCK_INPUT_DIR", os.path.join(_REPO, "sampledata"))
+LANDSCAPE_DIR = os.environ.get("LIVESTOCK_LANDSCAPE_DIR", os.path.join(_REPO, "sampledata"))
+STATUS_DIR = os.environ.get("LIVESTOCK_STATUS_DIR", os.path.join(_REPO, "status"))
+COUNTY_NAMES = os.environ.get("LIVESTOCK_COUNTY_NAMES",
+                              os.path.join(_REPO, "sampledata", "county_names.csv"))
+
 
 def parameter_loading(args):
 
-    path = '/Users/rachelseibel/simulations_status/'
+    path = STATUS_DIR if STATUS_DIR.endswith(os.sep) else STATUS_DIR + os.sep
     extension = ''
     extension_no_score = extension.replace('_', '')
 
@@ -25,12 +46,12 @@ def parameter_loading(args):
         'generate_grid_flag': 0,
         'calculate_holding_distances_flag': 0,
         'calculate_transmission_probabilities_flag': 0,
-        'input_folder': '/Users/rachelseibel/Documents/Documents/Git/livestock-model-2/src/',
-        'landscape_shp_path': '/Users/rachelseibel/Library/CloudStorage/OneDrive-UniversityofWarwick/livestock/behavioural_landscapes/softmax/'+args['landscape_method']+'.csv',
-        'grid_file_path': '/Users/rachelseibel/Documents/Documents/Git/livestock-model-2/src/inputs/grid/grid_cells'+extension+'.csv',
-        'cattle_file_path': '/Users/rachelseibel/Documents/Documents/Git/livestock-model-2/src/inputs/grid/grid_holdings'+extension+'.csv',
-        'transmission_file_path': '/Users/rachelseibel/Documents/Documents/Git/livestock-model-2/src/inputs/grid/transmission_probabilities'+extension+'.csv',
-        'distance_file_path': '/Users/rachelseibel/Documents/Documents/Git/livestock-model-2/src/inputs/grid/holding_pair_distances_by_cell'+extension+'.pkl'
+        'input_folder': INPUT_DIR + os.sep,
+        'landscape_shp_path': os.path.join(LANDSCAPE_DIR, args['landscape_method'] + '.csv'),
+        'grid_file_path': os.path.join(INPUT_DIR, 'grid_cells' + extension + '.csv'),
+        'cattle_file_path': os.path.join(INPUT_DIR, 'grid_holdings' + extension + '.csv'),
+        'transmission_file_path': os.path.join(INPUT_DIR, 'transmission_probabilities' + extension + '.csv'),
+        'distance_file_path': os.path.join(INPUT_DIR, 'holding_pair_distances_by_cell' + extension + '.pkl')
     }
     # Behavioural parameters
     params_behav = {
@@ -65,7 +86,7 @@ def parameter_loading(args):
         # 'seed_holding': 41081,
         'seed_county': str(args['county']),
         'num_seeds': 3,
-        'county_names_file_path': '/Users/rachelseibel/Library/CloudStorage/OneDrive-UniversityofWarwick/livestock/data_processed/holdings_counties.csv',
+        'county_names_file_path': COUNTY_NAMES,
         # 'binomial_flag': 'right',
         # 'P_CS_size': 'small',
     }
@@ -84,7 +105,7 @@ def parameter_loading(args):
     }
 
     # Write parameters to a file
-    with open('/Users/rachelseibel/Documents/Documents/Git/livestock-model-2/src/inputs/parameters.txt', 'w') as f:
+    with open(os.path.join(INPUT_DIR, 'parameters.txt'), 'w') as f:
         f.write('# Epidemiological parameters\n')
         for key, value in params_epi.items():
             f.write('%s:%s\n' % (key, value))

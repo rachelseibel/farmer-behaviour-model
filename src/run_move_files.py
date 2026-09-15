@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 def move_files():
-    path = '/home/rachelseibel/farmer_behaviour/'
+    path = os.environ.get('LIVESTOCK_RUN_DIR', 'runs/')
     ## Organise data into folders
     path_no_vax = path + 'simulations_no_vax/'
     path_idw = path + 'simulations_vax_idw_all/'

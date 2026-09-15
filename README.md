@@ -39,10 +39,16 @@ pip install numpy pandas scipy geopandas shapely
 python tools/make_sample_landscape.py --outdir sampledata --holdings 2000
 ```
 
-Then point the paths in `src/parameters.py` at `sampledata/` and run
-`src/run_model.py`. The paths there are currently absolute and local to the
-author's machine; they need editing before a first run. This is the one piece
-of setup friction that has not been cleaned up.
+Then run `src/run_model.py`. Paths default to the repository's own
+`sampledata/` folder, so no editing is needed for a test run. To point the model
+at real inputs, set the environment variables instead:
+
+```bash
+export LIVESTOCK_INPUT_DIR=/path/to/grid/inputs
+export LIVESTOCK_LANDSCAPE_DIR=/path/to/behavioural/landscapes
+export LIVESTOCK_COUNTY_NAMES=/path/to/holdings_counties.csv
+export LIVESTOCK_STATUS_DIR=/path/to/status
+```
 
 ## Reproducing the thesis results
 

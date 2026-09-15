@@ -231,9 +231,9 @@ def individual_simulation_summary(df, output_options):
 def main():
 
     # Set up working directory
-    # path = '/Users/rachelseibel/'
-    path = '/home/rachelseibel/farmer_behaviour/'
-    path_summary = '/home/rachelseibel/summary_cluster/'
+
+    path = os.environ.get('LIVESTOCK_RUN_DIR', 'runs/')
+    path_summary = os.environ.get('LIVESTOCK_SUMMARY_DIR', 'summary/')
     ## Organise data into folders
     path_no_vax = path + 'simulations_no_vax/'
     path_idw = path + 'simulations_vax_idw_all/'
