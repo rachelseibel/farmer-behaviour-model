@@ -1,0 +1,25 @@
+0 , GB , Aberdeenshire
+1 , GB , Cumbria
+2 , GB , Devon
+3 , GB , North Yorkshire
+4 , GB , Powys
+5 , Nation , Aberdeenshire
+6 , Nation , Cumbria
+7 , Nation , Devon
+8 , Nation , North Yorkshire
+9 , Nation , Powys
+10 , County , Aberdeenshire
+11 , County , Cumbria
+12 , County , Devon
+13 , County , North Yorkshire
+14 , County , Powys
+15 , interpolation_method , Aberdeenshire
+16 , interpolation_method , Cumbria
+17 , interpolation_method , Devon
+18 , interpolation_method , North Yorkshire
+19 , interpolation_method , Powys
+20 , blocking_method , Aberdeenshire
+21 , blocking_method , Cumbria
+22 , blocking_method , Devon
+23 , blocking_method , North Yorkshire
+24 , blocking_method , Powys

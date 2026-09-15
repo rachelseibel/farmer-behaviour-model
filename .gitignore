@@ -1,0 +1,30 @@
+# ---------------------------------------------------------------------------
+# Restricted data. See DATA.md. Nothing derived from CTS holding records or
+# from the farmer surveys may be committed to this repository.
+# ---------------------------------------------------------------------------
+inputs/
+src/inputs/
+sampledata/
+*.pkl
+grid_holdings*.csv
+grid_cells*.csv
+transmission_probabilities*.csv
+holding_pair_distances*
+behavioural_landscape*.csv
+landscape_iterations_summary.csv
+outputs/
+results/
+summary_*/
+simulations_*/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.Rhistory

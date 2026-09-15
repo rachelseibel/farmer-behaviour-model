@@ -1,0 +1,405 @@
+0 , interpolation_method , Aberdeenshire
+1 , interpolation_method , Angus
+2 , interpolation_method , Argyll and Bute
+3 , interpolation_method , Ayrshire
+4 , interpolation_method , Bedfordshire
+5 , interpolation_method , Berkshire
+6 , interpolation_method , Bristol
+7 , interpolation_method , Buckinghamshire
+8 , interpolation_method , Cambridgeshire
+9 , interpolation_method , Cardiff
+10 , interpolation_method , Carmarthenshire
+11 , interpolation_method , Ceredigion
+12 , interpolation_method , Cheshire
+13 , interpolation_method , Clackmannanshire
+14 , interpolation_method , Conwy
+15 , interpolation_method , Cornwall
+16 , interpolation_method , County Durham
+17 , interpolation_method , Cumbria
+18 , interpolation_method , Denbighshire
+19 , interpolation_method , Derbyshire
+20 , interpolation_method , Devon
+21 , interpolation_method , Dorset
+22 , interpolation_method , Dumfries and Galloway
+23 , interpolation_method , Dunbartonshire
+24 , interpolation_method , East Riding of Yorkshire
+25 , interpolation_method , Essex
+26 , interpolation_method , Fife
+27 , interpolation_method , Flintshire
+28 , interpolation_method , Gloucestershire
+29 , interpolation_method , Greater Manchester
+30 , interpolation_method , Gwynedd
+31 , interpolation_method , Hampshire
+32 , interpolation_method , Herefordshire
+33 , interpolation_method , Hertfordshire
+34 , interpolation_method , Highland
+35 , interpolation_method , Isle of Anglesey
+36 , interpolation_method , Isle of Wight
+37 , interpolation_method , Isles of Scilly
+38 , interpolation_method , Kent
+39 , interpolation_method , Lanarkshire
+40 , interpolation_method , Lancashire
+41 , interpolation_method , Leicestershire
+42 , interpolation_method , Lincolnshire
+43 , interpolation_method , London
+44 , interpolation_method , Lothian
+45 , interpolation_method , Merseyside
+46 , interpolation_method , Monmouthshire
+47 , interpolation_method , Moray
+48 , interpolation_method , Newport
+49 , interpolation_method , Norfolk
+50 , interpolation_method , North Yorkshire
+51 , interpolation_method , Northamptonshire
+52 , interpolation_method , Northern Isles
+53 , interpolation_method , Northumberland
+54 , interpolation_method , Nottinghamshire
+55 , interpolation_method , Oxfordshire
+56 , interpolation_method , Pembrokeshire
+57 , interpolation_method , Perth and Kinross
+58 , interpolation_method , Powys
+59 , interpolation_method , Renfrewshire
+60 , interpolation_method , Rutland
+61 , interpolation_method , Scottish Borders
+62 , interpolation_method , Shropshire
+63 , interpolation_method , Somerset
+64 , interpolation_method , South Wales
+65 , interpolation_method , South Yorkshire
+66 , interpolation_method , Staffordshire
+67 , interpolation_method , Stirlingshire
+68 , interpolation_method , Suffolk
+69 , interpolation_method , Surrey
+70 , interpolation_method , Sussex
+71 , interpolation_method , Swansea
+72 , interpolation_method , Tyne and Wear
+73 , interpolation_method , Vale of Glamorgan
+74 , interpolation_method , Warwickshire
+75 , interpolation_method , West Midlands
+76 , interpolation_method , West Yorkshire
+77 , interpolation_method , Western Isles
+78 , interpolation_method , Wiltshire
+79 , interpolation_method , Worcestershire
+80 , interpolation_method , Wrexham
+81 , blocking_method , Aberdeenshire
+82 , blocking_method , Angus
+83 , blocking_method , Argyll and Bute
+84 , blocking_method , Ayrshire
+85 , blocking_method , Bedfordshire
+86 , blocking_method , Berkshire
+87 , blocking_method , Bristol
+88 , blocking_method , Buckinghamshire
+89 , blocking_method , Cambridgeshire
+90 , blocking_method , Cardiff
+91 , blocking_method , Carmarthenshire
+92 , blocking_method , Ceredigion
+93 , blocking_method , Cheshire
+94 , blocking_method , Clackmannanshire
+95 , blocking_method , Conwy
+96 , blocking_method , Cornwall
+97 , blocking_method , County Durham
+98 , blocking_method , Cumbria
+99 , blocking_method , Denbighshire
+100 , blocking_method , Derbyshire
+101 , blocking_method , Devon
+102 , blocking_method , Dorset
+103 , blocking_method , Dumfries and Galloway
+104 , blocking_method , Dunbartonshire
+105 , blocking_method , East Riding of Yorkshire
+106 , blocking_method , Essex
+107 , blocking_method , Fife
+108 , blocking_method , Flintshire
+109 , blocking_method , Gloucestershire
+110 , blocking_method , Greater Manchester
+111 , blocking_method , Gwynedd
+112 , blocking_method , Hampshire
+113 , blocking_method , Herefordshire
+114 , blocking_method , Hertfordshire
+115 , blocking_method , Highland
+116 , blocking_method , Isle of Anglesey
+117 , blocking_method , Isle of Wight
+118 , blocking_method , Isles of Scilly
+119 , blocking_method , Kent
+120 , blocking_method , Lanarkshire
+121 , blocking_method , Lancashire
+122 , blocking_method , Leicestershire
+123 , blocking_method , Lincolnshire
+124 , blocking_method , London
+125 , blocking_method , Lothian
+126 , blocking_method , Merseyside
+127 , blocking_method , Monmouthshire
+128 , blocking_method , Moray
+129 , blocking_method , Newport
+130 , blocking_method , Norfolk
+131 , blocking_method , North Yorkshire
+132 , blocking_method , Northamptonshire
+133 , blocking_method , Northern Isles
+134 , blocking_method , Northumberland
+135 , blocking_method , Nottinghamshire
+136 , blocking_method , Oxfordshire
+137 , blocking_method , Pembrokeshire
+138 , blocking_method , Perth and Kinross
+139 , blocking_method , Powys
+140 , blocking_method , Renfrewshire
+141 , blocking_method , Rutland
+142 , blocking_method , Scottish Borders
+143 , blocking_method , Shropshire
+144 , blocking_method , Somerset
+145 , blocking_method , South Wales
+146 , blocking_method , South Yorkshire
+147 , blocking_method , Staffordshire
+148 , blocking_method , Stirlingshire
+149 , blocking_method , Suffolk
+150 , blocking_method , Surrey
+151 , blocking_method , Sussex
+152 , blocking_method , Swansea
+153 , blocking_method , Tyne and Wear
+154 , blocking_method , Vale of Glamorgan
+155 , blocking_method , Warwickshire
+156 , blocking_method , West Midlands
+157 , blocking_method , West Yorkshire
+158 , blocking_method , Western Isles
+159 , blocking_method , Wiltshire
+160 , blocking_method , Worcestershire
+161 , blocking_method , Wrexham
+162 , County , Aberdeenshire
+163 , County , Angus
+164 , County , Argyll and Bute
+165 , County , Ayrshire
+166 , County , Bedfordshire
+167 , County , Berkshire
+168 , County , Bristol
+169 , County , Buckinghamshire
+170 , County , Cambridgeshire
+171 , County , Cardiff
+172 , County , Carmarthenshire
+173 , County , Ceredigion
+174 , County , Cheshire
+175 , County , Clackmannanshire
+176 , County , Conwy
+177 , County , Cornwall
+178 , County , County Durham
+179 , County , Cumbria
+180 , County , Denbighshire
+181 , County , Derbyshire
+182 , County , Devon
+183 , County , Dorset
+184 , County , Dumfries and Galloway
+185 , County , Dunbartonshire
+186 , County , East Riding of Yorkshire
+187 , County , Essex
+188 , County , Fife
+189 , County , Flintshire
+190 , County , Gloucestershire
+191 , County , Greater Manchester
+192 , County , Gwynedd
+193 , County , Hampshire
+194 , County , Herefordshire
+195 , County , Hertfordshire
+196 , County , Highland
+197 , County , Isle of Anglesey
+198 , County , Isle of Wight
+199 , County , Isles of Scilly
+200 , County , Kent
+201 , County , Lanarkshire
+202 , County , Lancashire
+203 , County , Leicestershire
+204 , County , Lincolnshire
+205 , County , London
+206 , County , Lothian
+207 , County , Merseyside
+208 , County , Monmouthshire
+209 , County , Moray
+210 , County , Newport
+211 , County , Norfolk
+212 , County , North Yorkshire
+213 , County , Northamptonshire
+214 , County , Northern Isles
+215 , County , Northumberland
+216 , County , Nottinghamshire
+217 , County , Oxfordshire
+218 , County , Pembrokeshire
+219 , County , Perth and Kinross
+220 , County , Powys
+221 , County , Renfrewshire
+222 , County , Rutland
+223 , County , Scottish Borders
+224 , County , Shropshire
+225 , County , Somerset
+226 , County , South Wales
+227 , County , South Yorkshire
+228 , County , Staffordshire
+229 , County , Stirlingshire
+230 , County , Suffolk
+231 , County , Surrey
+232 , County , Sussex
+233 , County , Swansea
+234 , County , Tyne and Wear
+235 , County , Vale of Glamorgan
+236 , County , Warwickshire
+237 , County , West Midlands
+238 , County , West Yorkshire
+239 , County , Western Isles
+240 , County , Wiltshire
+241 , County , Worcestershire
+242 , County , Wrexham
+243 , Nation , Aberdeenshire
+244 , Nation , Angus
+245 , Nation , Argyll and Bute
+246 , Nation , Ayrshire
+247 , Nation , Bedfordshire
+248 , Nation , Berkshire
+249 , Nation , Bristol
+250 , Nation , Buckinghamshire
+251 , Nation , Cambridgeshire
+252 , Nation , Cardiff
+253 , Nation , Carmarthenshire
+254 , Nation , Ceredigion
+255 , Nation , Cheshire
+256 , Nation , Clackmannanshire
+257 , Nation , Conwy
+258 , Nation , Cornwall
+259 , Nation , County Durham
+260 , Nation , Cumbria
+261 , Nation , Denbighshire
+262 , Nation , Derbyshire
+263 , Nation , Devon
+264 , Nation , Dorset
+265 , Nation , Dumfries and Galloway
+266 , Nation , Dunbartonshire
+267 , Nation , East Riding of Yorkshire
+268 , Nation , Essex
+269 , Nation , Fife
+270 , Nation , Flintshire
+271 , Nation , Gloucestershire
+272 , Nation , Greater Manchester
+273 , Nation , Gwynedd
+274 , Nation , Hampshire
+275 , Nation , Herefordshire
+276 , Nation , Hertfordshire
+277 , Nation , Highland
+278 , Nation , Isle of Anglesey
+279 , Nation , Isle of Wight
+280 , Nation , Isles of Scilly
+281 , Nation , Kent
+282 , Nation , Lanarkshire
+283 , Nation , Lancashire
+284 , Nation , Leicestershire
+285 , Nation , Lincolnshire
+286 , Nation , London
+287 , Nation , Lothian
+288 , Nation , Merseyside
+289 , Nation , Monmouthshire
+290 , Nation , Moray
+291 , Nation , Newport
+292 , Nation , Norfolk
+293 , Nation , North Yorkshire
+294 , Nation , Northamptonshire
+295 , Nation , Northern Isles
+296 , Nation , Northumberland
+297 , Nation , Nottinghamshire
+298 , Nation , Oxfordshire
+299 , Nation , Pembrokeshire
+300 , Nation , Perth and Kinross
+301 , Nation , Powys
+302 , Nation , Renfrewshire
+303 , Nation , Rutland
+304 , Nation , Scottish Borders
+305 , Nation , Shropshire
+306 , Nation , Somerset
+307 , Nation , South Wales
+308 , Nation , South Yorkshire
+309 , Nation , Staffordshire
+310 , Nation , Stirlingshire
+311 , Nation , Suffolk
+312 , Nation , Surrey
+313 , Nation , Sussex
+314 , Nation , Swansea
+315 , Nation , Tyne and Wear
+316 , Nation , Vale of Glamorgan
+317 , Nation , Warwickshire
+318 , Nation , West Midlands
+319 , Nation , West Yorkshire
+320 , Nation , Western Isles
+321 , Nation , Wiltshire
+322 , Nation , Worcestershire
+323 , Nation , Wrexham
+324 , GB , Aberdeenshire
+325 , GB , Angus
+326 , GB , Argyll and Bute
+327 , GB , Ayrshire
+328 , GB , Bedfordshire
+329 , GB , Berkshire
+330 , GB , Bristol
+331 , GB , Buckinghamshire
+332 , GB , Cambridgeshire
+333 , GB , Cardiff
+334 , GB , Carmarthenshire
+335 , GB , Ceredigion
+336 , GB , Cheshire
+337 , GB , Clackmannanshire
+338 , GB , Conwy
+339 , GB , Cornwall
+340 , GB , County Durham
+341 , GB , Cumbria
+342 , GB , Denbighshire
+343 , GB , Derbyshire
+344 , GB , Devon
+345 , GB , Dorset
+346 , GB , Dumfries and Galloway
+347 , GB , Dunbartonshire
+348 , GB , East Riding of Yorkshire
+349 , GB , Essex
+350 , GB , Fife
+351 , GB , Flintshire
+352 , GB , Gloucestershire
+353 , GB , Greater Manchester
+354 , GB , Gwynedd
+355 , GB , Hampshire
+356 , GB , Herefordshire
+357 , GB , Hertfordshire
+358 , GB , Highland
+359 , GB , Isle of Anglesey
+360 , GB , Isle of Wight
+361 , GB , Isles of Scilly
+362 , GB , Kent
+363 , GB , Lanarkshire
+364 , GB , Lancashire
+365 , GB , Leicestershire
+366 , GB , Lincolnshire
+367 , GB , London
+368 , GB , Lothian
+369 , GB , Merseyside
+370 , GB , Monmouthshire
+371 , GB , Moray
+372 , GB , Newport
+373 , GB , Norfolk
+374 , GB , North Yorkshire
+375 , GB , Northamptonshire
+376 , GB , Northern Isles
+377 , GB , Northumberland
+378 , GB , Nottinghamshire
+379 , GB , Oxfordshire
+380 , GB , Pembrokeshire
+381 , GB , Perth and Kinross
+382 , GB , Powys
+383 , GB , Renfrewshire
+384 , GB , Rutland
+385 , GB , Scottish Borders
+386 , GB , Shropshire
+387 , GB , Somerset
+388 , GB , South Wales
+389 , GB , South Yorkshire
+390 , GB , Staffordshire
+391 , GB , Stirlingshire
+392 , GB , Suffolk
+393 , GB , Surrey
+394 , GB , Sussex
+395 , GB , Swansea
+396 , GB , Tyne and Wear
+397 , GB , Vale of Glamorgan
+398 , GB , Warwickshire
+399 , GB , West Midlands
+400 , GB , West Yorkshire
+401 , GB , Western Isles
+402 , GB , Wiltshire
+403 , GB , Worcestershire
+404 , GB , Wrexham
