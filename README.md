@@ -1,4 +1,4 @@
-# Farmer behaviour module: livestock disease model
+# Farmer behaviour model: livestock disease transmission with spatially heterogeneous vaccination behaviour
 
 Model code for Chapter 4 of Rachel Seibel's PhD thesis (University of Warwick,
 MathSys CDT): a spatial stochastic model of a fast-spreading cattle pathogen in
